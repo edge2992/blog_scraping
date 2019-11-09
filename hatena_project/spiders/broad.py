@@ -25,4 +25,5 @@ class BroadSpider(scrapy.Spider):
 
     def parse_page(self, response):
         title, content = get_content(response.text)
-        yield Page(url=response.url, title=title, content=content)
+        yield Page(url=response.url, title=title, html=response.text,
+                   content=content)

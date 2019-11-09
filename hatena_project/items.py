@@ -17,6 +17,7 @@ import scrapy
 class Page(scrapy.Item):
     url = scrapy.Field()
     title = scrapy.Field()
+    html = scrapy.Field()
     content = scrapy.Field()
 
     def __repr__(self):
