@@ -14,6 +14,8 @@ https://qiita.com/____easy/items/4dcda6cc4f5e7de13d36
 
 
 # 現在のmongoDBの状態
+|名前| 意味|
+|---|---|
 | url | URL |
 | title | ブログタイトル |
 | html | htmlそのまま |
