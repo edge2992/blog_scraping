@@ -19,6 +19,7 @@ class Page(scrapy.Item):
     title = scrapy.Field()
     html = scrapy.Field()
     content = scrapy.Field()
+    category = scrapy.Field()
 
     def __repr__(self):
         """
