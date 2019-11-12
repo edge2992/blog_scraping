@@ -53,6 +53,7 @@ class TestMongo(object):
 
 
 def main():
+    TestMongo().pad()
     TestMongo().count_pad()
 
 
